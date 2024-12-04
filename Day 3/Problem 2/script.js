@@ -68,8 +68,6 @@ function findMatches(input){
             }
         }
     }
-    if(logs)
-        console.log("Final Results:", results);
     // Calculates the total from the mul substrings
     calculateTotal(results);
 }
